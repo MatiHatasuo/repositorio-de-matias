@@ -22,7 +22,7 @@ class Usuario:
         self.__email = email
         self.__tipo = tipo
 
-    # CRUD 
+    #Ccrud
     def crear(self, cursor):
         sql = """INSERT INTO usuario 
                  (nombre_usuario, clave, nombre, apellido, fecha_nacimiento, telefono, email, tipo)
